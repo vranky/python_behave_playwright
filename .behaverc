@@ -1,0 +1,12 @@
+[behave]
+stderr_capture=true
+stdout_capture=true
+show_skipped=false
+log_capture=true
+show_timings=true
+outfile=report/allure-results/test-result.json
+[behave.formatters]
+allure = allure_behave.formatter:AllureFormatter
+
+[behave.userdata]
+AllureFormatter.link_pattern = https://liquidtool.atlassian.net/{}

@@ -1,0 +1,9 @@
+behave==1.2.6
+allure-behave==2.8.40
+names==0.3.0
+pyquery==1.4.3
+Faker==4.0.0
+allure-behave==2.8.40
+playwright==1.11.2
+pytest==6.2.4
+ipython==7.23.1
