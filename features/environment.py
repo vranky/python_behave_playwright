@@ -9,7 +9,7 @@ import allure
 def browser(context):
     with sync_playwright() as playwright:
         isHeadless = True if platform == 'linux' else False
-        context.bw_context = playwright.chromium.launch(channel="chrome", headless=isHeadless)
+        context.bw_context = playwright.chromium.launch(headless=True)
 
         # TODO video recording
         # record_video_dir='report/video',
