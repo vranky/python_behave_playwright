@@ -1,3 +1,4 @@
+Local
 * virtualenv -p python3 python_3_9
 * source python_3_9/bin/activate
 * python3 -m pip install -r requirements.txt
